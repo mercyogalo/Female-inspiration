@@ -8,14 +8,14 @@
    <title>Document</title>
 <style>
   :root{
-    --secondary-color:#A60F25;
+    --secondary-color:#FF5403;
     --primary-color:#000004;
     --side-color:#F3F3F3;
   }
 .main-page{
 padding: 150px;
 border:1px solid white;
-box-shadow: 1px 1px 20px  #A60F25;
+box-shadow: 1px 1px 20px  var(--secondary-color);
 margin-left: 40px;
 margin-right: 40px;
 margin-bottom: 30px;
@@ -31,7 +31,11 @@ background-size: contain;
 .section-profile{
   text-align: center;
 }
-
+.page-description{
+  color: var(--secondary-color);
+  opacity: 0.4;
+  
+}
 .mini-heading{
   color: var(--secondary-color);
   font-size: 30px;
@@ -43,11 +47,9 @@ background-size: contain;
   transition: opacity 0.5s ease-in-out;
 }
 
-.nav-link{
-  color: #A60F25;
-}
+
 .data-heading{
- box-shadow: 1px 1px 20px  #A60F25;;
+ box-shadow: 1px 1px 20px  var(--secondary-color);
 }
 .sub-heading{
   color:var(--secondary-color);
@@ -73,7 +75,12 @@ body{
   .sub-heading{
     font-size: 10px;
   }
-
+.page-description{
+  font-size: 10px;
+}
+.main-description{
+  font-size: 10px;
+}
 
 }
    </style>
@@ -104,7 +111,7 @@ body{
     <h2  class="text-center sub-heading mt-1">
      HISTORY
     </h2>
-    <p>
+    <p class="page-description">
      Lupita Nyong'o was born on March 1, 1983, in Mexico City, Mexico, and raised in Kenya. She attended college in the United States, earning a degree in film and theatre studies from Hampshire College and later an MFA from the Yale School of Drama. Lupita's breakthrough came with her role in the film "12 Years a Slave" in 2013
     </p>
     </div>
@@ -114,7 +121,7 @@ body{
      <h2  class="text-center sub-heading mt-1">
       ACHIEVEMENTS
       </h2>
-      <p>
+      <p class="page-description">
        Lupita Nyong'o's portrayal of Patsey in "12 Years a Slave" earned her the Academy Award for Best Supporting Actress, making her the first Kenyan and Mexican actress to win an Oscar. She has also starred in major films such as "Black Panther," "Us," and the "Star Wars" sequel trilogy. Additionally, she has authored a New York Times best-selling children's book, "Sulwe."
       </p>
     </div>
@@ -125,7 +132,7 @@ body{
      <h2  class="text-center sub-heading mt-1">
        INSPIRATIONAL
       </h2>
-      <p>
+      <p class="page-description">
        Lupita Nyong'o is an inspiration due to her remarkable talent, perseverance, and advocacy for diversity in Hollywood. Her success story, from a Kenyan childhood to an Oscar-winning actress, demonstrates the power of determination and hard work. Lupita's efforts to promote self-love and cultural pride resonate with many, making her a role model for aspiring actors and individuals worldwide.
       </p>
     </div>
