@@ -1,0 +1,81 @@
+:root{
+    --secondary-color:#FF5403;
+    --primary-color:#000004;
+    --side-color:#F3F3F3;
+  }
+.main-page{
+padding: 150px;
+border:1px solid white;
+box-shadow: 1px 1px 20px  var(--secondary-color);
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 30px;
+background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/564/original/Lupita_Nyong%E2%80%99o_Photographed_by_Kwaku_Alston.jpg?1720633106");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.main-description{
+  font-size: 15px;
+  color: var(--secondary-color);
+}
+.section-profile{
+  text-align: center;
+}
+.page-description{
+  color: var(--secondary-color);
+  opacity: 0.4;
+  
+}
+.mini-heading{
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+.main-heading{
+  color: var(--secondary-color);
+  font-size: 60px;
+  font-weight: 400px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.data-heading{
+ box-shadow: 1px 1px 20px  var(--secondary-color);
+}
+.sub-heading{
+  color:var(--secondary-color);
+  font-size: 15px;
+}
+body{
+  background-color: var(--primary-color);
+ 
+}
+
+@media (max-width:576px) {
+  .main-page{
+    padding:50px;
+    margin: 10px;
+    
+  }
+  .main-heading{
+    font-size: 30px;
+  }
+  .mini-heading{
+    font-size: 15px;
+  }
+  .sub-heading{
+    font-size: 10px;
+  }
+.page-description{
+  font-size: 8px;
+  
+}
+.main-description{
+  font-size: 8px;
+}
+.data-heading{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+}
